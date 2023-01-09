@@ -8,6 +8,11 @@
   background-repeat: no-repeat;
 }
 
+img {
+  width: 35px;
+  height: 35px;
+}
+
 main {
   display: flex;
   justify-content: space-evenly;
@@ -90,6 +95,35 @@ main .drigouls ul img {
 }
 main article {
   width: 80%;
+  padding: 1% 1%;
+}
+main article .navbar {
+  height: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+main article .navbar div input {
+  width: 450px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: white;
+}
+main article .navbar .profile {
+  width: 600px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+}
+main article .navbar .profile img {
+  width: 35px;
+  height: 35px;
+  float: right;
+}
+main article .navbar .profile ul {
+  list-style: none;
+}
+main article .navbar .profile ul li {
+  height: 50%;
 }
 
 /*# sourceMappingURL=parcijalni.css.map */
