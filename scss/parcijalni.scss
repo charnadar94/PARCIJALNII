@@ -1,2 +1,92 @@
 @import 'var';
 @import 'mixin';
+
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../Parcijalni/images/background.png");
+    background-repeat: no-repeat;
+}
+
+main { display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    .sidebar {
+        width: 20%;
+        height: 100%;
+        display: block;
+        color: black;
+        padding: 1%;
+        border-right: 2px solid $beige;
+
+
+        .gemi {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 5%;
+            width: 100%;
+            
+
+            .burger {
+                width: 35px;
+                height: 35px;
+            }
+
+
+            .gemimg {
+                width: 45%;
+
+                h2 {
+                    color: $olive;
+                    font-size: 28px;
+                    padding-top: 2%;
+                }
+
+                img {
+                    float: left;
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+
+        .prviuls {height: 30%;
+            margin-top: 30px;
+
+            ul {
+                list-style: none;
+                height: 115%;
+
+                li {
+                    @include lisidebar;}
+
+                    img {
+                        @include imgsidebar;
+                    }
+
+                    a {
+                        @include asidebar;
+                    }
+                }
+            }
+        }
+
+        .drigouls {height: 25%;
+            h4 {height: 34px;}
+            ul {height: 147%;
+                list-style: none;
+                li {@include lisidebar;}
+
+                img {@include imgsidebar;}
+            }
+
+            
+        }
+        article {width: 80%;}
+    }
+
+    

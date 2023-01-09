@@ -1,3 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../Parcijalni/images/background.png");
+  background-repeat: no-repeat;
+}
 
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+main .sidebar {
+  width: 20%;
+  height: 100%;
+  display: block;
+  color: black;
+  padding: 1%;
+  border-right: 2px solid #ffebd3;
+}
+main .sidebar .gemi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  width: 100%;
+}
+main .sidebar .gemi .burger {
+  width: 35px;
+  height: 35px;
+}
+main .sidebar .gemi .gemimg {
+  width: 45%;
+}
+main .sidebar .gemi .gemimg h2 {
+  color: #679186;
+  font-size: 28px;
+  padding-top: 2%;
+}
+main .sidebar .gemi .gemimg img {
+  float: left;
+  width: 35px;
+  height: 35px;
+}
+main .sidebar .prviuls {
+  height: 30%;
+  margin-top: 30px;
+}
+main .sidebar .prviuls ul {
+  list-style: none;
+  height: 115%;
+}
+main .sidebar .prviuls ul li {
+  height: 15%;
+  margin: 1% 1%;
+  padding-left: 1%;
+  border-bottom: 1px solid gray;
+}
+main .sidebar .prviuls ul img {
+  width: 40px;
+  height: 40px;
+}
+main .sidebar .prviuls ul a {
+  text-decoration: none;
+  color: #264e70;
+}
+main .drigouls {
+  height: 25%;
+}
+main .drigouls h4 {
+  height: 34px;
+}
+main .drigouls ul {
+  height: 147%;
+  list-style: none;
+}
+main .drigouls ul li {
+  height: 15%;
+  margin: 1% 1%;
+  padding-left: 1%;
+  border-bottom: 1px solid gray;
+}
+main .drigouls ul img {
+  width: 40px;
+  height: 40px;
+}
+main article {
+  width: 80%;
+}
 
 /*# sourceMappingURL=parcijalni.css.map */

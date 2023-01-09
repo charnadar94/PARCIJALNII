@@ -1,11 +1,26 @@
 @mixin tablet {
-    @media screen and (max-width:950px){
+    @media screen and (max-width:950px) {
         @content;
     }
 }
 
 @mixin mobile {
-    @media screen and (max-width:650px){
+    @media screen and (max-width:650px) {
         @content;
     }
 }
+
+@mixin imgsidebar {
+    width: 40px;
+    height: 40px;
+}
+
+@mixin lisidebar {
+    height: 15%;
+    margin: 1% 1%;
+    padding-left: 1%;
+    border-bottom: 1px solid gray;
+}
+
+@mixin asidebar {text-decoration: none;
+    color: $blue;}
